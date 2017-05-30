@@ -25,6 +25,6 @@ printf("\nHello ");
 for(j = 0; j < len-1; j++){
 printf("%c", name[j]);
 }
-printf("!\n");
+printf("!");
 
 }
