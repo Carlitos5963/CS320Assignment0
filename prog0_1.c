@@ -20,9 +20,6 @@ break;
 
 int len = strlen(name);
 
-for(j = 0; j < len; j++){
-        printf("%c", name[j]);
-    }
 
 printf("\nHello ");
 for(j = 0; j < len-1; j++){
