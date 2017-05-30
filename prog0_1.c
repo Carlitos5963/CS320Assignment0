@@ -21,7 +21,7 @@ break;
 int len = strlen(name);
 
 
-printf("\nHello ");
+printf("Hello ");
 for(j = 0; j < len-1; j++){
 printf("%c", name[j]);
 }
