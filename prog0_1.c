@@ -19,6 +19,11 @@ break;
 }
 
 int len = strlen(name);
+
+for(j = 0; j < len; j++){
+        printf("%c", name[j]);
+    }
+
 printf("Hello ");
 for(j = 0; j < len-1; j++){
 printf("%c", name[j]);
