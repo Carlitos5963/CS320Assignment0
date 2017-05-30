@@ -22,7 +22,7 @@ int len = strlen(name);
 
 
 printf("\nHello ");
-for(j = 0; j < len-1; j++){
+for(j = 0; j < len; j++){
 printf("%c", name[j]);
 }
 printf("!");
